@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		201ECBE61D39C5B50071654A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201ECBE51D39C5B50071654A /* AppDelegate.swift */; };
+		201ECBE81D39C5B50071654A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201ECBE71D39C5B50071654A /* ViewController.swift */; };
+		201ECBEB1D39C5B50071654A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 201ECBE91D39C5B50071654A /* Main.storyboard */; };
+		201ECBED1D39C5B50071654A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 201ECBEC1D39C5B50071654A /* Assets.xcassets */; };
+		201ECBF01D39C5B50071654A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 201ECBEE1D39C5B50071654A /* LaunchScreen.storyboard */; };
+		201ECBFB1D39C5B50071654A /* RendezfooTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201ECBFA1D39C5B50071654A /* RendezfooTests.swift */; };
+		201ECC061D39C5B60071654A /* RendezfooUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201ECC051D39C5B60071654A /* RendezfooUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		201ECBF71D39C5B50071654A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 201ECBDA1D39C5B50071654A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 201ECBE11D39C5B50071654A;
+			remoteInfo = Rendezfoo;
+		};
+		201ECC021D39C5B60071654A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 201ECBDA1D39C5B50071654A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 201ECBE11D39C5B50071654A;
+			remoteInfo = Rendezfoo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		201ECBE21D39C5B50071654A /* Rendezfoo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rendezfoo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		201ECBE51D39C5B50071654A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		201ECBE71D39C5B50071654A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		201ECBEA1D39C5B50071654A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		201ECBEC1D39C5B50071654A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		201ECBEF1D39C5B50071654A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		201ECBF11D39C5B50071654A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		201ECBF61D39C5B50071654A /* RendezfooTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RendezfooTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		201ECBFA1D39C5B50071654A /* RendezfooTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RendezfooTests.swift; sourceTree = "<group>"; };
+		201ECBFC1D39C5B50071654A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		201ECC011D39C5B60071654A /* RendezfooUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RendezfooUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		201ECC051D39C5B60071654A /* RendezfooUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RendezfooUITests.swift; sourceTree = "<group>"; };
+		201ECC071D39C5B60071654A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		201ECBDF1D39C5B50071654A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		201ECBF31D39C5B50071654A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		201ECBFE1D39C5B50071654A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		201ECBD91D39C5B50071654A = {
+			isa = PBXGroup;
+			children = (
+				201ECBE41D39C5B50071654A /* Rendezfoo */,
+				201ECBF91D39C5B50071654A /* RendezfooTests */,
+				201ECC041D39C5B60071654A /* RendezfooUITests */,
+				201ECBE31D39C5B50071654A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		201ECBE31D39C5B50071654A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				201ECBE21D39C5B50071654A /* Rendezfoo.app */,
+				201ECBF61D39C5B50071654A /* RendezfooTests.xctest */,
+				201ECC011D39C5B60071654A /* RendezfooUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		201ECBE41D39C5B50071654A /* Rendezfoo */ = {
+			isa = PBXGroup;
+			children = (
+				201ECBE51D39C5B50071654A /* AppDelegate.swift */,
+				201ECBE71D39C5B50071654A /* ViewController.swift */,
+				201ECBE91D39C5B50071654A /* Main.storyboard */,
+				201ECBEC1D39C5B50071654A /* Assets.xcassets */,
+				201ECBEE1D39C5B50071654A /* LaunchScreen.storyboard */,
+				201ECBF11D39C5B50071654A /* Info.plist */,
+			);
+			path = Rendezfoo;
+			sourceTree = "<group>";
+		};
+		201ECBF91D39C5B50071654A /* RendezfooTests */ = {
+			isa = PBXGroup;
+			children = (
+				201ECBFA1D39C5B50071654A /* RendezfooTests.swift */,
+				201ECBFC1D39C5B50071654A /* Info.plist */,
+			);
+			path = RendezfooTests;
+			sourceTree = "<group>";
+		};
+		201ECC041D39C5B60071654A /* RendezfooUITests */ = {
+			isa = PBXGroup;
+			children = (
+				201ECC051D39C5B60071654A /* RendezfooUITests.swift */,
+				201ECC071D39C5B60071654A /* Info.plist */,
+			);
+			path = RendezfooUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		201ECBE11D39C5B50071654A /* Rendezfoo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 201ECC0A1D39C5B60071654A /* Build configuration list for PBXNativeTarget "Rendezfoo" */;
+			buildPhases = (
+				201ECBDE1D39C5B50071654A /* Sources */,
+				201ECBDF1D39C5B50071654A /* Frameworks */,
+				201ECBE01D39C5B50071654A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Rendezfoo;
+			productName = Rendezfoo;
+			productReference = 201ECBE21D39C5B50071654A /* Rendezfoo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		201ECBF51D39C5B50071654A /* RendezfooTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 201ECC0D1D39C5B60071654A /* Build configuration list for PBXNativeTarget "RendezfooTests" */;
+			buildPhases = (
+				201ECBF21D39C5B50071654A /* Sources */,
+				201ECBF31D39C5B50071654A /* Frameworks */,
+				201ECBF41D39C5B50071654A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				201ECBF81D39C5B50071654A /* PBXTargetDependency */,
+			);
+			name = RendezfooTests;
+			productName = RendezfooTests;
+			productReference = 201ECBF61D39C5B50071654A /* RendezfooTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		201ECC001D39C5B50071654A /* RendezfooUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 201ECC101D39C5B60071654A /* Build configuration list for PBXNativeTarget "RendezfooUITests" */;
+			buildPhases = (
+				201ECBFD1D39C5B50071654A /* Sources */,
+				201ECBFE1D39C5B50071654A /* Frameworks */,
+				201ECBFF1D39C5B50071654A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				201ECC031D39C5B60071654A /* PBXTargetDependency */,
+			);
+			name = RendezfooUITests;
+			productName = RendezfooUITests;
+			productReference = 201ECC011D39C5B60071654A /* RendezfooUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		201ECBDA1D39C5B50071654A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Adil Ansari";
+				TargetAttributes = {
+					201ECBE11D39C5B50071654A = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					201ECBF51D39C5B50071654A = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 201ECBE11D39C5B50071654A;
+					};
+					201ECC001D39C5B50071654A = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 201ECBE11D39C5B50071654A;
+					};
+				};
+			};
+			buildConfigurationList = 201ECBDD1D39C5B50071654A /* Build configuration list for PBXProject "Rendezfoo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 201ECBD91D39C5B50071654A;
+			productRefGroup = 201ECBE31D39C5B50071654A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				201ECBE11D39C5B50071654A /* Rendezfoo */,
+				201ECBF51D39C5B50071654A /* RendezfooTests */,
+				201ECC001D39C5B50071654A /* RendezfooUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		201ECBE01D39C5B50071654A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				201ECBF01D39C5B50071654A /* LaunchScreen.storyboard in Resources */,
+				201ECBED1D39C5B50071654A /* Assets.xcassets in Resources */,
+				201ECBEB1D39C5B50071654A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		201ECBF41D39C5B50071654A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		201ECBFF1D39C5B50071654A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		201ECBDE1D39C5B50071654A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				201ECBE81D39C5B50071654A /* ViewController.swift in Sources */,
+				201ECBE61D39C5B50071654A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		201ECBF21D39C5B50071654A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				201ECBFB1D39C5B50071654A /* RendezfooTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		201ECBFD1D39C5B50071654A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				201ECC061D39C5B60071654A /* RendezfooUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		201ECBF81D39C5B50071654A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 201ECBE11D39C5B50071654A /* Rendezfoo */;
+			targetProxy = 201ECBF71D39C5B50071654A /* PBXContainerItemProxy */;
+		};
+		201ECC031D39C5B60071654A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 201ECBE11D39C5B50071654A /* Rendezfoo */;
+			targetProxy = 201ECC021D39C5B60071654A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		201ECBE91D39C5B50071654A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				201ECBEA1D39C5B50071654A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		201ECBEE1D39C5B50071654A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				201ECBEF1D39C5B50071654A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		201ECC081D39C5B60071654A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		201ECC091D39C5B60071654A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		201ECC0B1D39C5B60071654A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Rendezfoo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Rendezwho.Rendezfoo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		201ECC0C1D39C5B60071654A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Rendezfoo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Rendezwho.Rendezfoo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		201ECC0E1D39C5B60071654A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RendezfooTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Rendezwho.RendezfooTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rendezfoo.app/Rendezfoo";
+			};
+			name = Debug;
+		};
+		201ECC0F1D39C5B60071654A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RendezfooTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Rendezwho.RendezfooTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rendezfoo.app/Rendezfoo";
+			};
+			name = Release;
+		};
+		201ECC111D39C5B60071654A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RendezfooUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Rendezwho.RendezfooUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Rendezfoo;
+			};
+			name = Debug;
+		};
+		201ECC121D39C5B60071654A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RendezfooUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Rendezwho.RendezfooUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Rendezfoo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		201ECBDD1D39C5B50071654A /* Build configuration list for PBXProject "Rendezfoo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				201ECC081D39C5B60071654A /* Debug */,
+				201ECC091D39C5B60071654A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		201ECC0A1D39C5B60071654A /* Build configuration list for PBXNativeTarget "Rendezfoo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				201ECC0B1D39C5B60071654A /* Debug */,
+				201ECC0C1D39C5B60071654A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		201ECC0D1D39C5B60071654A /* Build configuration list for PBXNativeTarget "RendezfooTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				201ECC0E1D39C5B60071654A /* Debug */,
+				201ECC0F1D39C5B60071654A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		201ECC101D39C5B60071654A /* Build configuration list for PBXNativeTarget "RendezfooUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				201ECC111D39C5B60071654A /* Debug */,
+				201ECC121D39C5B60071654A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 201ECBDA1D39C5B50071654A /* Project object */;
+}
