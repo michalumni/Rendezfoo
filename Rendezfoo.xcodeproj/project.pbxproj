@@ -14,6 +14,19 @@
 		201ECBF01D39C5B50071654A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 201ECBEE1D39C5B50071654A /* LaunchScreen.storyboard */; };
 		201ECBFB1D39C5B50071654A /* RendezfooTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201ECBFA1D39C5B50071654A /* RendezfooTests.swift */; };
 		201ECC061D39C5B60071654A /* RendezfooUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201ECC051D39C5B60071654A /* RendezfooUITests.swift */; };
+		205F80671D3C10FE0008012D /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205F80661D3C10FE0008012D /* User.swift */; };
+		205F80691D3C21AE0008012D /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205F80681D3C21AE0008012D /* FavoritesViewController.swift */; };
+		205F806B1D3C3D500008012D /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205F806A1D3C3D500008012D /* CameraViewController.swift */; };
+		205F806D1D3C3D9A0008012D /* PreviewVideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205F806C1D3C3D9A0008012D /* PreviewVideoViewController.swift */; };
+		2076F76C1D3D781C00550B30 /* VideoContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2076F76B1D3D781C00550B30 /* VideoContainer.swift */; };
+		2076F76E1D3D822100550B30 /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2076F76D1D3D822100550B30 /* VideoViewController.swift */; };
+		20838FFF1D3B401C00604948 /* Topic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20838FFE1D3B401C00604948 /* Topic.swift */; };
+		20ACE09E1D3B83920057A8D1 /* TopicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20ACE09D1D3B83920057A8D1 /* TopicViewController.swift */; };
+		20BC4EE51D39CED3006F3922 /* LoginSignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20BC4EE41D39CED3006F3922 /* LoginSignupViewController.swift */; };
+		20BC4EE71D39D499006F3922 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20BC4EE61D39D499006F3922 /* SignupViewController.swift */; };
+		20BC4EE91D39E21E006F3922 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20BC4EE81D39E21E006F3922 /* MainViewController.swift */; };
+		20BC4EEB1D39FB49006F3922 /* CreateTopicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20BC4EEA1D39FB49006F3922 /* CreateTopicViewController.swift */; };
+		8F7F2A9AC744B93EFC415024 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C91A1204E9F4CAED6D5EDFEA /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +60,22 @@
 		201ECC011D39C5B60071654A /* RendezfooUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RendezfooUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		201ECC051D39C5B60071654A /* RendezfooUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RendezfooUITests.swift; sourceTree = "<group>"; };
 		201ECC071D39C5B60071654A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		205F80661D3C10FE0008012D /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		205F80681D3C21AE0008012D /* FavoritesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
+		205F806A1D3C3D500008012D /* CameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		205F806C1D3C3D9A0008012D /* PreviewVideoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreviewVideoViewController.swift; sourceTree = "<group>"; };
+		2076F76B1D3D781C00550B30 /* VideoContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoContainer.swift; sourceTree = "<group>"; };
+		2076F76D1D3D822100550B30 /* VideoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
+		20838FFE1D3B401C00604948 /* Topic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Topic.swift; sourceTree = "<group>"; };
+		20ACE09D1D3B83920057A8D1 /* TopicViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopicViewController.swift; sourceTree = "<group>"; };
+		20BC4EE21D39CC7D006F3922 /* Rendezfoo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Rendezfoo-Bridging-Header.h"; sourceTree = "<group>"; };
+		20BC4EE41D39CED3006F3922 /* LoginSignupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginSignupViewController.swift; sourceTree = "<group>"; };
+		20BC4EE61D39D499006F3922 /* SignupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		20BC4EE81D39E21E006F3922 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		20BC4EEA1D39FB49006F3922 /* CreateTopicViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateTopicViewController.swift; sourceTree = "<group>"; };
+		6AF0C0DD80FFCA39EE5019E6 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		C91A1204E9F4CAED6D5EDFEA /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD8CBB32C7A0539F2F271EE6 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F7F2A9AC744B93EFC415024 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +111,8 @@
 				201ECBF91D39C5B50071654A /* RendezfooTests */,
 				201ECC041D39C5B60071654A /* RendezfooUITests */,
 				201ECBE31D39C5B50071654A /* Products */,
+				3AAA15A83B359225ACAFFF61 /* Pods */,
+				AF3733A709A9FA86401A761C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,8 +129,10 @@
 		201ECBE41D39C5B50071654A /* Rendezfoo */ = {
 			isa = PBXGroup;
 			children = (
+				20838FFD1D3B3F9500604948 /* Model */,
+				20BC4EE31D39CD57006F3922 /* ViewControllers */,
+				20BC4ED91D39CA9C006F3922 /* SupportingFiles */,
 				201ECBE51D39C5B50071654A /* AppDelegate.swift */,
-				201ECBE71D39C5B50071654A /* ViewController.swift */,
 				201ECBE91D39C5B50071654A /* Main.storyboard */,
 				201ECBEC1D39C5B50071654A /* Assets.xcassets */,
 				201ECBEE1D39C5B50071654A /* LaunchScreen.storyboard */,
@@ -125,6 +159,58 @@
 			path = RendezfooUITests;
 			sourceTree = "<group>";
 		};
+		20838FFD1D3B3F9500604948 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2076F76B1D3D781C00550B30 /* VideoContainer.swift */,
+				205F80661D3C10FE0008012D /* User.swift */,
+				20838FFE1D3B401C00604948 /* Topic.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		20BC4ED91D39CA9C006F3922 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				20BC4EE21D39CC7D006F3922 /* Rendezfoo-Bridging-Header.h */,
+			);
+			name = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		20BC4EE31D39CD57006F3922 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				20ACE09D1D3B83920057A8D1 /* TopicViewController.swift */,
+				2076F76D1D3D822100550B30 /* VideoViewController.swift */,
+				20BC4EE41D39CED3006F3922 /* LoginSignupViewController.swift */,
+				201ECBE71D39C5B50071654A /* ViewController.swift */,
+				20BC4EE81D39E21E006F3922 /* MainViewController.swift */,
+				205F806A1D3C3D500008012D /* CameraViewController.swift */,
+				205F806C1D3C3D9A0008012D /* PreviewVideoViewController.swift */,
+				205F80681D3C21AE0008012D /* FavoritesViewController.swift */,
+				20BC4EEA1D39FB49006F3922 /* CreateTopicViewController.swift */,
+				20BC4EE61D39D499006F3922 /* SignupViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		3AAA15A83B359225ACAFFF61 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DD8CBB32C7A0539F2F271EE6 /* Pods.debug.xcconfig */,
+				6AF0C0DD80FFCA39EE5019E6 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AF3733A709A9FA86401A761C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C91A1204E9F4CAED6D5EDFEA /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +218,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 201ECC0A1D39C5B60071654A /* Build configuration list for PBXNativeTarget "Rendezfoo" */;
 			buildPhases = (
+				CCD1BFF2DF31EC56F856FF74 /* Check Pods Manifest.lock */,
 				201ECBDE1D39C5B50071654A /* Sources */,
 				201ECBDF1D39C5B50071654A /* Frameworks */,
 				201ECBE01D39C5B50071654A /* Resources */,
+				D8F954971F901BC74351BD76 /* Embed Pods Frameworks */,
+				2F53D8DA69FFA94BC946D855 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,6 +282,7 @@
 				TargetAttributes = {
 					201ECBE11D39C5B50071654A = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = NY2XV7DPQK;
 					};
 					201ECBF51D39C5B50071654A = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -251,13 +341,73 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2F53D8DA69FFA94BC946D855 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CCD1BFF2DF31EC56F856FF74 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D8F954971F901BC74351BD76 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		201ECBDE1D39C5B50071654A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				205F806B1D3C3D500008012D /* CameraViewController.swift in Sources */,
+				20BC4EE51D39CED3006F3922 /* LoginSignupViewController.swift in Sources */,
 				201ECBE81D39C5B50071654A /* ViewController.swift in Sources */,
+				20ACE09E1D3B83920057A8D1 /* TopicViewController.swift in Sources */,
+				20BC4EE71D39D499006F3922 /* SignupViewController.swift in Sources */,
 				201ECBE61D39C5B50071654A /* AppDelegate.swift in Sources */,
+				205F806D1D3C3D9A0008012D /* PreviewVideoViewController.swift in Sources */,
+				205F80671D3C10FE0008012D /* User.swift in Sources */,
+				2076F76E1D3D822100550B30 /* VideoViewController.swift in Sources */,
+				20BC4EEB1D39FB49006F3922 /* CreateTopicViewController.swift in Sources */,
+				20BC4EE91D39E21E006F3922 /* MainViewController.swift in Sources */,
+				205F80691D3C21AE0008012D /* FavoritesViewController.swift in Sources */,
+				20838FFF1D3B401C00604948 /* Topic.swift in Sources */,
+				2076F76C1D3D781C00550B30 /* VideoContainer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,23 +549,36 @@
 		};
 		201ECC0B1D39C5B60071654A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD8CBB32C7A0539F2F271EE6 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Rendezfoo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Rendezwho.Rendezfoo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Rendezfoo/Rendezfoo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		201ECC0C1D39C5B60071654A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6AF0C0DD80FFCA39EE5019E6 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Rendezfoo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Rendezwho.Rendezfoo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Rendezfoo/Rendezfoo-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -484,6 +647,7 @@
 				201ECC0C1D39C5B60071654A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		201ECC0D1D39C5B60071654A /* Build configuration list for PBXNativeTarget "RendezfooTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +656,7 @@
 				201ECC0F1D39C5B60071654A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		201ECC101D39C5B60071654A /* Build configuration list for PBXNativeTarget "RendezfooUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +665,7 @@
 				201ECC121D39C5B60071654A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

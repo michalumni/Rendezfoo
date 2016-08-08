@@ -2,7 +2,7 @@
 //  RendezfooTests.swift
 //  RendezfooTests
 //
-//  Created by Nandini Ansari on 7/15/16.
+//  Created by Adil Ansari on 7/15/16.
 //  Copyright © 2016 Adil Ansari. All rights reserved.
 //
 

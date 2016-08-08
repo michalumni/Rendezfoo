@@ -1,0 +1,5 @@
+source 'https://github.com/CocoaPods/Specs.git'
+workspace 'Rendezfoo'
+pod 'Parse' 
+pod 'ParseUI'
+pod 'LLSimpleCamera', '~> 4.1'

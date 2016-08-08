@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  Rendezfoo
 //
-//  Created by Nandini Ansari on 7/15/16.
+//  Created by Adil Ansari on 7/15/16.
 //  Copyright © 2016 Adil Ansari. All rights reserved.
 //
 
@@ -16,6 +16,19 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        
+        Parse.enableLocalDatastore()
+
+        let parseConfiguration = ParseClientConfiguration(block: { (ParseMutableClientConfiguration) -> Void in
+            ParseMutableClientConfiguration.applicationId = "Iwalkslowly12309"
+            //ParseMutableClientConfiguration.clientKey = "BYpp48R7RnlcngNY9kmFj9htE6csOlfGMpRH6WF8"
+            ParseMutableClientConfiguration.server = "https://rendezfoodev-1373.appspot.com/parse"
+            ParseMutableClientConfiguration.localDatastoreEnabled = true
+        })
+        print(parseConfiguration.localDatastoreEnabled)
+        //            parseConfiguration.localDatastoreEnabled = true
+        Parse.initializeWithConfiguration(parseConfiguration)
+
         return true
     }
 
